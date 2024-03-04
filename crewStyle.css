@@ -1,0 +1,152 @@
+.background2
+{
+  background-image: url(assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  height: 1024px;
+  width: 100%;
+}
+
+.mySlides 
+{
+  display: none;
+}
+
+.nav-content
+{
+  position: absolute;
+  top: 90%;
+  width: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.dot
+{
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  background-color: rgb(83, 83, 83);
+  border: none;
+  transition: all 0.17s;
+}
+
+.dot:hover
+{
+  border: none;
+  background-color: #979797;
+}
+
+.active
+{
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  transition: all 0.17s;
+}
+
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.pick-destination
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 4.72px;
+  padding: 50px 0px 0px 0px;
+}
+
+.pick-destination b
+{
+  margin-right: 20px;
+  letter-spacing: 4.72px;
+  color: #474748;
+}
+
+/**/
+.content
+{
+  padding: 0px 160px 0px 160px;
+}
+
+.title
+{
+  margin-top: 70px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  letter-spacing: 2.78px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+.container
+{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content b
+{
+  letter-spacing: 2.78px;
+  color: #979797;
+}
+
+.img-con img
+{
+  float: right;
+}
+
+.img-con img
+{
+  position: absolute;
+  right: 160px;
+  bottom: 0;
+}
+
+.text-container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container h3
+{
+  font-family: 'Bellefair', sans-serif;
+  font-size: 32px;
+  color: #979797;
+  font-weight: 400;
+}
+
+.text-container h1
+{
+  font-family: 'Bellefair', sans-serif;
+  font-size: 56px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.desc
+{
+  margin-bottom: 150px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  color: #979797;
+  line-height: 32px;
+  width: 445px;
+}

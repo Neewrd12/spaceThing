@@ -1,0 +1,122 @@
+.background3
+{
+  background-image: url(assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  height: 1024px;
+}
+
+.nav-content
+{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  justify-content: space-between;
+}
+
+.slideshow-container
+{
+  align-items: center;
+  padding: 0px 0px 0px 160px;
+  display: flex;
+}
+
+.container
+{
+  display: flex;
+}
+
+/*TEXT*/
+.text-container h3
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.76px;
+  color: #979797;
+  margin: 100px 0px 20px 0px;
+}
+
+.text-container h1
+{
+  font-family: 'Bellefair', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}
+
+.desc
+{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0d6f9;
+  padding: 0px 200px 0px 0px;
+}
+
+.pick-destination
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 4.72px;
+  padding: 50px 0px 0px 160px;
+}
+
+.pick-destination b
+{
+  margin-right: 20px;
+  letter-spacing: 4.72px;
+  color: #474748;
+}
+
+/*CSS JS*/
+.mySlides 
+{
+  display: none;
+}
+
+.dot
+{
+  background-color: transparent;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  font-family: 'Bellefair', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  transition: all 0.17s;
+  display: inline-block;
+  border: rgb(83, 83, 83) solid 1px;
+  color: white;
+}
+
+.dot:hover
+{
+  border: solid white 1px;
+}
+
+.active
+{
+  color: #0b0d17;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Bellefair', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  transition: all 0.17s;
+  display: inline-block;
+}
+
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}

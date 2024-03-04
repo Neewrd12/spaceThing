@@ -1,0 +1,275 @@
+.content
+{
+  padding: 50px 160px 0px 160px;
+}
+
+.pick-destination
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 4.72px;
+}
+
+.pick-destination b
+{
+  margin-right: 20px;
+  letter-spacing: 4.72px;
+  color: #474748;
+}
+
+.mySlides 
+{
+  display: none
+}
+
+img 
+{
+  vertical-align: middle;
+}
+
+.slideshow-container 
+{
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text 
+{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext 
+{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.nav-content
+{
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 285.5px;
+  margin: 5px 10px 5px 10px;
+  right: 140px;
+}
+
+.dot
+{
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom: solid transparent 3px;
+  transition: all 0.17s;
+  display: inline-block;
+}
+
+.dot:hover
+{
+  border-bottom: rgb(83, 83, 83) solid 3px;
+}
+
+.active
+{
+  border-bottom: solid white 3px;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  transition: all 0.17s;
+  display: inline-block;
+}
+
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Shite*/
+.container
+{
+  display: flex;
+  justify-content: space-between;
+}
+.text-container
+{
+  margin-top: 100px;
+  width: 450px;
+}
+
+.info-container
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-container h1
+{
+  color: #ffffff;
+  font-family: 'Bellefair', sans-serif;
+  margin: 20px 0px 20px 0px;
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.desc
+{
+  font-family: 'Barlow', sans-serif;
+  color: #d0d6f9;
+  font-size: 16px;
+  padding-bottom: 50px;
+  border-bottom: #d0d6f9 solid 1px;
+  margin-bottom: 30px;
+}
+
+.information p
+{
+  color: #d0d6f9;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px;
+  letter-spacing: 2.36px;
+}
+
+.information h2
+{
+  font-family: 'Bellefair', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 100;
+}
+
+.header-contain
+{
+  color: white;
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .nav-content
+  {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 285.5px;
+    margin: 5px 10px 5px 10px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container
+  {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container img
+  {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-container
+  {
+    width: 100%;
+  }
+
+  /*TEXT*/
+  .text-container h1
+  {
+    color: #ffffff;
+    font-family: 'Bellefair', sans-serif;
+    margin: 20px 0px 20px 0px;
+    font-size: 80px;
+    font-weight: 300;
+  }
+
+  .desc
+  {
+    font-family: 'Barlow', sans-serif;
+    color: #d0d6f9;
+    font-size: 16px;
+    padding-bottom: 50px;
+    border-bottom: #d0d6f9 solid 1px;
+    margin-bottom: 30px;
+  }
+
+  .information p
+  {
+    color: #d0d6f9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    letter-spacing: 2.36px;
+  }
+
+  .information h2
+  {
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  @media only screen and (max-width: 768px)
+  {
+    .slideshow-container
+    {
+      margin-top: 80px;
+    }
+
+    .pick-destination
+    {
+      position: absolute;
+      left: 20px;
+      font-size: 20px;
+    }
+
+    .content
+    {
+      padding: 50px 100px 0px 100px;
+    }
+  }
+}

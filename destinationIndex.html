@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Tourism Destination</title>
+  <link rel="stylesheet" href="headerCss.css">
+  <link rel="stylesheet" href="destinationStyle.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="background">
+    <div class="header-penjarak">
+      <div class="header-container">
+        <div class="img-container">
+          <img src="assets/shared/logo.svg" alt="">
+        </div>
+        
+        <div class="line">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quae dignissimos, soluta reiciendis sint ratione quidem ut est, sequi asperiores sunt enim nam numquam architecto, dolor cum odit. Obcaecati, quidem.</p>
+        </div>
+
+        <div class="header">
+          <ul class="header-contain">
+            <p><a href="index.html"><b>00</b> HOME</a></p>
+            <p class="home"><a href="destinationIndex.html"><b>01</b> DESTINATION</a></p>
+            <p><a href="crewIndex.html"><b>02</b> CREW</a></p>
+            <p><a href="technologyIndex.html"><b>03</b> TECHNOLOGY</a></p>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <p class="pick-destination"><b>01</b>PICK YOUR DESTINATION</p>
+
+      <div class="slideshow-container">
+        <div class="nav-content">
+          <p class="dot" onclick="currentSlide(1)">MOON</p>
+          <p class="dot" onclick="currentSlide(2)">MARS</p>
+          <p class="dot" onclick="currentSlide(3)">EUROPA</p>
+          <p class="dot" onclick="currentSlide(4)">TITAN</p>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="container">
+            <div>
+              <img src="assets/destination/image-moon.png" alt="">
+            </div>
+            
+            <div class="text-container">
+              <h1>MOON</h1>
+              <p class="desc">See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+              <div class="info-container">
+                <div class="information">
+                  <p>AVG. DISTANCE</p>
+                  <h2>384,400 KM</h2>
+                </div>
+                <div class="information">
+                  <p>EST. TIME TRAVEL</p>
+                  <h2>3 DAYS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="container">
+            <div>
+              <img src="assets/destination/image-mars.png" alt="">
+            </div>
+            
+            <div class="text-container">
+              <h1>MARS</h1>
+              <p class="desc">Don't forget to pack your hiking boots. You'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It's two and a half times the size of Everest!</p>
+
+              <div class="info-container">
+                <div class="information">
+                  <p>AVG. DISTANCE</p>
+                  <h2>225 MIL. KM</h2>
+                </div>
+                <div class="information">
+                  <p>EST. TIME TRAVEL</p>
+                  <h2>9 MONTHS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="container">
+            <div>
+              <img src="assets/destination/image-europa.png" alt="">
+            </div>
+            
+            <div class="text-container">
+              <h1>EUROPA</h1>
+              <p class="desc">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream. With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+
+              <div class="info-container">
+                <div class="information">
+                  <p>AVG. DISTANCE</p>
+                  <h2>628 MIL. KM</h2>
+                </div>
+                <div class="information">
+                  <p>EST. TIME TRAVEL</p>
+                  <h2>3 YEARS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="container">
+            <div>
+              <img src="assets/destination/image-titan.png" alt="">
+            </div>
+            
+            <div class="text-container">
+              <h1>TITAN</h1>
+              <p class="desc">  The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+
+              <div class="info-container">
+                <div class="information">
+                  <p>AVG. DISTANCE</p>
+                  <h2>1.6 MIL. KM</h2>
+                </div>
+                <div class="information">
+                  <p>EST. TIME TRAVEL</p>
+                  <h2>7 YEARS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+</body>
+</html>
